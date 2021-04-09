@@ -13,7 +13,7 @@
 #### 1.Build EasyAntiPatchGuard.sln
 #### 2.Load EasyAntiPatchGuard.sys
 
-##Detail
+## Detail
 as we know, patchguard execution chain:
 
 On pgentry -> 
@@ -110,7 +110,7 @@ jmp     rax
 ret
 ```
 
-##Result
+## Result
 ```asm
 0: kd> u guard_dispatch_icall
 nt!guard_dispatch_icall:
