@@ -189,3 +189,5 @@ for(;;){
     KeSleep(100);
 }
 ```
+- [x] fix KiTimerDispatch entry check
+- [x] fix KiDpcDispatch entry check
